@@ -9,6 +9,7 @@ My raspberry Pi setup - self-hosting
   - [Table of contents](#table-of-contents)
   - [Main Sources](#main-sources)
   - [RBenv](#rbenv)
+  - [Gollum](#gollum)
     - [B](#B)
 
 ## Main Sources
@@ -39,3 +40,10 @@ source .bashrc
 rbenv
 > rbenv x.x.x #version to be displayed
 ```
+
+## Gollum
+[source](https://www.themoderncoder.com/install-and-configure-gollum-wiki-on-raspberry-pi/)
+
+A Gollum Wiki is simply a git repository of a specific nature: A Gollum repository's contents are human-editable text or markup files.
+
+* Gollum Installation
