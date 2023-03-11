@@ -7,18 +7,16 @@ My raspberry Pi setup - self-hosting
 
 - [My Raspberry Pi Setup](#my-raspberry-pi-setup)
   - [Table of contents](#table-of-contents)
-  - [Sources](#sources)
+  - [Main Sources](#main-sources)
   - [RBenv](#rbenv)
     - [B](#B)
 
-## Sources
+## Main Sources
 
-- [reactnative.dev](https://reactnative.dev/docs/environment-setup)
-
-- [React Native TS + Navigation v6](https://youtu.be/UzMbu3XKEoM)
+- [www.raspberrypi.com]([https://reactnative.dev/docs/environment-setup](https://www.raspberrypi.com/documentation/computers/getting-started.html#setting-up-your-raspberry-pi))
 
 ## RBenv
-
+[source](https://dev.to/konyu/installing-the-latest-version-of-ruby-on-raspberry-pi-3ofk)
 Rbenv is a version manager tool for the Ruby programming language on Unix-like systems
 
 * RBenv Installation
