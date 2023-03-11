@@ -1,7 +1,7 @@
 # My Raspberry Pi Setup
 My raspberry Pi setup - self-hosting
 
-<img src="./raspberrypi.webp" width="25%" alt="webp raspberry pi picture">
+<img src="./raspberrypi.webp" width="45%" alt="webp raspberry pi picture">
 
 ## Table of contents
 
