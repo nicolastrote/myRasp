@@ -8,7 +8,7 @@ My raspberry Pi setup - self-hosting
 - [My Raspberry Pi Setup](#my-raspberry-pi-setup)
   - [Table of contents](#table-of-contents)
   - [Sources](#sources)
-  - [A](#A)
+  - [RBenv](#rbenv)
     - [B](#B)
 
 ## Sources
@@ -17,6 +17,27 @@ My raspberry Pi setup - self-hosting
 
 - [React Native TS + Navigation v6](https://youtu.be/UzMbu3XKEoM)
 
-## A
+## RBenv
 
-### B
+Rbenv is a version manager tool for the Ruby programming language on Unix-like systems
+
+* RBenv Installation
+
+```bash
+sudo apt-get install rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bashrc
+echo 'eval "$(rbenv init -)"' >> .bashrc
+```
+
+* Update your terminal
+
+```
+source .bashrc
+```
+
+* Test your installation
+
+```
+rbenv
+> rbenv x.x.x #version to be displayed
+```
