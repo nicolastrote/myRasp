@@ -8,7 +8,7 @@ My raspberry Pi setup - self-hosting
 - [My Raspberry Pi Setup)
   - [Table of contents](#table-of-contents)
   - [Sources](#sources)
-  - [A)
+  - [A](#A)
     - [B](#B)
 
 ## Sources
