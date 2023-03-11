@@ -5,7 +5,7 @@ My raspberry Pi setup - self-hosting
 
 ## Table of contents
 
-- [My Raspberry Pi Setup)
+- [My Raspberry Pi Setup](#My Raspberry Pi Setup)
   - [Table of contents](#table-of-contents)
   - [Sources](#sources)
   - [A](#A)
