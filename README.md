@@ -67,3 +67,11 @@ Now it time to install gollum:
 ```
 gem install gollum --user-install
 ```
+
+* Git Connexion
+
+Gollum uses a git repo as its backend.
+
+```
+git clone git@github.com:JackLot/docs.git
+```
