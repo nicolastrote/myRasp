@@ -26,6 +26,11 @@ Rbenv is a version manager tool for the Ruby programming language on Unix-like s
 sudo apt-get install rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .bashrc
 echo 'eval "$(rbenv init -)"' >> .bashrc
+
+echo 'export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"' >> .bashrc
+echo 'export PATH="$PATH:$GEM_HOME/bin"' >> .bashrc
+gem list
+gem update
 ```
 
 * Update your terminal
