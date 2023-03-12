@@ -1,4 +1,5 @@
 # My Raspberry Pi Setup
+
 My raspberry Pi setup - self-hosting
 
 <img src="./raspberrypi.webp" width="45%" alt="webp raspberry pi picture">
@@ -17,7 +18,9 @@ My raspberry Pi setup - self-hosting
 - [www.raspberrypi.com]([https://reactnative.dev/docs/environment-setup](https://www.raspberrypi.com/documentation/computers/getting-started.html#setting-up-your-raspberry-pi))
 
 ## RBenv
+
 [source](https://dev.to/konyu/installing-the-latest-version-of-ruby-on-raspberry-pi-3ofk)
+
 Rbenv is a version manager tool for the Ruby programming language on Unix-like systems
 
 * RBenv Installation
@@ -47,8 +50,11 @@ rbenv
 ```
 
 ## Gollum
+
 [source](https://www.themoderncoder.com/install-and-configure-gollum-wiki-on-raspberry-pi/)
 
 A Gollum Wiki is simply a git repository of a specific nature: A Gollum repository's contents are human-editable text or markup files.
 
 * Gollum Installation
+
+gem install gollum --user-install
