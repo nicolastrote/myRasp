@@ -57,6 +57,13 @@ A Gollum Wiki is simply a git repository of a specific nature: A Gollum reposito
 
 * Gollum Installation
 
+For building Gollum we need:
+
+```
+apt-get install ruby ruby-dev make zlib1g-dev libicu-dev build-essential git cmake
+```
+Now it time to install gollum:
+
 ```
 gem install gollum --user-install
 ```
