@@ -57,4 +57,6 @@ A Gollum Wiki is simply a git repository of a specific nature: A Gollum reposito
 
 * Gollum Installation
 
+```
 gem install gollum --user-install
+```
