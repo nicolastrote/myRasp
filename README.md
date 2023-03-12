@@ -73,5 +73,5 @@ gem install gollum --user-install
 Gollum uses a git repo as its backend.
 
 ```
-git clone git@github.com:JackLot/docs.git
+git clone https://github.com/nicolastrote/myGollumWiki.git
 ```
