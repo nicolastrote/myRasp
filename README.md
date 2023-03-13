@@ -55,7 +55,7 @@ rbenv
 
 A Gollum Wiki is simply a git repository of a specific nature: A Gollum repository's contents are human-editable text or markup files.
 
-* Gollum Installation
+### Gollum Installation
 
 For building Gollum we need:
 
@@ -68,10 +68,30 @@ Now it time to install gollum:
 gem install gollum --user-install
 ```
 
-* Git Connexion
+### Git Connexion
 
 Gollum uses a git repo as its backend.
+
+In order to fix the issue follow the below steps:
+
+* Goto settings of Github account
+* Find and Select Developer Settings
+* Find and Select Personal access tokens
+* Generate a new token
+* Fill in any note and select the access scopes
+* once done click on generate token
+  * personal aceess token
+  * read & write only on "Content"
+  * keep your token in safe: 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
+* Use the generated token in place of a password to communicate with GitHub
 
 ```
 git clone https://github.com/nicolastrote/myGollumWiki.git
 ```
+
+### Running Gollum as a service
+
+```
+gollum /home/nicolas/myGollumWiki/ --css
+```
+
