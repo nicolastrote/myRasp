@@ -82,11 +82,14 @@ In order to fix the issue follow the below steps:
 * once done click on generate token
   * personal aceess token
   * read & write only on "Content"
-  * keep your token in safe: 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
+  * keep your token in safe: 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
 * Use the generated token in place of a password to communicate with GitHub
 
-```
+```zsh
 git clone https://github.com/nicolastrote/myGollumWiki.git
+git remote -v # display the origin (empty if new)
+git remote remove origin # to renew the token you need to remove the origin
+git remote add origin https://github_pat_abcdefghij@github.com/nicolastrote/myGollumWiki.git
 ```
 
 ### Running Gollum as a service
